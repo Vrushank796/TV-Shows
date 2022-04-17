@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1417F228010D9900A87FBD /* TVShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1417F128010D9900A87FBD /* TVShowTableViewCell.swift */; };
+		0D1417F72801378E00A87FBD /* TVShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1417F62801378E00A87FBD /* TVShowDetailViewController.swift */; };
 		0D46027927FFA833001C96A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46027827FFA833001C96A4 /* AppDelegate.swift */; };
 		0D46027B27FFA833001C96A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46027A27FFA833001C96A4 /* SceneDelegate.swift */; };
 		0D46027D27FFA833001C96A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46027C27FFA833001C96A4 /* ViewController.swift */; };
@@ -14,9 +16,17 @@
 		0D46028327FFA833001C96A4 /* TV_Shows.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D46028127FFA833001C96A4 /* TV_Shows.xcdatamodeld */; };
 		0D46028527FFA835001C96A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D46028427FFA835001C96A4 /* Assets.xcassets */; };
 		0D46028827FFA835001C96A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D46028627FFA835001C96A4 /* LaunchScreen.storyboard */; };
+		0D46029027FFA8D4001C96A4 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46028F27FFA8D4001C96A4 /* NetworkingService.swift */; };
+		0D46029227FFA8E7001C96A4 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46029127FFA8E7001C96A4 /* CoreDataService.swift */; };
+		0D46029427FFAC1A001C96A4 /* TVShowModelClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46029327FFAC1A001C96A4 /* TVShowModelClasses.swift */; };
+		0D46029627FFAF78001C96A4 /* ViewTVShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46029527FFAF78001C96A4 /* ViewTVShowTableViewController.swift */; };
+		0D46029827FFAFBF001C96A4 /* ViewFavTVShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46029727FFAFBF001C96A4 /* ViewFavTVShowTableViewController.swift */; };
+		0DDB886328092CDB00B91671 /* FavTVShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB886228092CDB00B91671 /* FavTVShowDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D1417F128010D9900A87FBD /* TVShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowTableViewCell.swift; sourceTree = "<group>"; };
+		0D1417F62801378E00A87FBD /* TVShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailViewController.swift; sourceTree = "<group>"; };
 		0D46027527FFA833001C96A4 /* TV Shows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Shows.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D46027827FFA833001C96A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D46027A27FFA833001C96A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,12 @@
 		0D46028427FFA835001C96A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D46028727FFA835001C96A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D46028927FFA835001C96A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D46028F27FFA8D4001C96A4 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		0D46029127FFA8E7001C96A4 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		0D46029327FFAC1A001C96A4 /* TVShowModelClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowModelClasses.swift; sourceTree = "<group>"; };
+		0D46029527FFAF78001C96A4 /* ViewTVShowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTVShowTableViewController.swift; sourceTree = "<group>"; };
+		0D46029727FFAFBF001C96A4 /* ViewFavTVShowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFavTVShowTableViewController.swift; sourceTree = "<group>"; };
+		0DDB886228092CDB00B91671 /* FavTVShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTVShowDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1417F328010DEE00A87FBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D46029327FFAC1A001C96A4 /* TVShowModelClasses.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D1417F428010E1C00A87FBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D46028F27FFA8D4001C96A4 /* NetworkingService.swift */,
+				0D46029127FFA8E7001C96A4 /* CoreDataService.swift */,
+				0D46029527FFAF78001C96A4 /* ViewTVShowTableViewController.swift */,
+				0D46029727FFAFBF001C96A4 /* ViewFavTVShowTableViewController.swift */,
+				0D1417F62801378E00A87FBD /* TVShowDetailViewController.swift */,
+				0DDB886228092CDB00B91671 /* FavTVShowDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D1417F528010E3E00A87FBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D1417F128010D9900A87FBD /* TVShowTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0D46026C27FFA833001C96A4 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +111,9 @@
 				0D46028627FFA835001C96A4 /* LaunchScreen.storyboard */,
 				0D46028927FFA835001C96A4 /* Info.plist */,
 				0D46028127FFA833001C96A4 /* TV_Shows.xcdatamodeld */,
+				0D1417F428010E1C00A87FBD /* Controller */,
+				0D1417F328010DEE00A87FBD /* Model */,
+				0D1417F528010E3E00A87FBD /* View */,
 			);
 			path = "TV Shows";
 			sourceTree = "<group>";
@@ -141,9 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDB886328092CDB00B91671 /* FavTVShowDetailViewController.swift in Sources */,
+				0D1417F72801378E00A87FBD /* TVShowDetailViewController.swift in Sources */,
+				0D46029027FFA8D4001C96A4 /* NetworkingService.swift in Sources */,
+				0D46029427FFAC1A001C96A4 /* TVShowModelClasses.swift in Sources */,
+				0D1417F228010D9900A87FBD /* TVShowTableViewCell.swift in Sources */,
 				0D46027D27FFA833001C96A4 /* ViewController.swift in Sources */,
+				0D46029627FFAF78001C96A4 /* ViewTVShowTableViewController.swift in Sources */,
 				0D46027927FFA833001C96A4 /* AppDelegate.swift in Sources */,
 				0D46028327FFA833001C96A4 /* TV_Shows.xcdatamodeld in Sources */,
+				0D46029827FFAFBF001C96A4 /* ViewFavTVShowTableViewController.swift in Sources */,
+				0D46029227FFA8E7001C96A4 /* CoreDataService.swift in Sources */,
 				0D46027B27FFA833001C96A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +353,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,6 +382,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
