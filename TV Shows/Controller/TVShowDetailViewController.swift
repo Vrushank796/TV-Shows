@@ -110,6 +110,8 @@ class TVShowDetailViewController: UIViewController,networkingDelegateProtocol{
             
         }))
         
+        alert.addAction(UIAlertAction(title:"Cancel",style:.cancel,handler:nil))
+        
         present(alert,animated: true)
     }
     
